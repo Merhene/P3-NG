@@ -1,0 +1,14 @@
+<section class="card">
+    <img [src]="user.photo" [alt]="user.name">
+    <div class="card-body">
+        <div class="card-text">
+            <h3>{{ user.firstName }}</h3>
+            <h5>{{ user.name }}</h5>
+            <div *ngIf="isAgeVisible"><h5>{{ user.age }}</h5></div>
+            <div *ngIf="!isAgeVisible" class="surprise">c==3</div>
+            <button type="button" class="btn btn-light btn-sm" (click)="toggleAge()">
+                {{ isAgeVisible ? "Hide": "Show"}} Age</button><br>
+            <input type="text" [(ngModel)]="user.quote" placeholder="Enter your quote here">
+        </div>
+    </div>
+</section>
