@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+body {
+    display: flex;
+    margin-top: 5px;
+    scroll-behavior: smooth;
+}
+
+section {
+    justify-content: space-between;
+    background: rgba(74, 74, 74, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 33%;
+    height: auto;
+    margin: auto;
+}
+
+
+button.btn.btn-light:hover {
+    animation: fade-in linear forwards;
+    scale: 1.05;
+}
+
+.surprise {
+    size: 2rem;
+    color: aquamarine;
+}
+
+button {
+
+    background-color: blueviolet;
+    color: white;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card-body {
+    background-color: white;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
