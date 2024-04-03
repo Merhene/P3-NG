@@ -4,7 +4,6 @@ import { BlockComponent } from './block/block.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MenuComponent } from './menu/menu.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
-import { Sign } from 'crypto';
 
 @Component({
   selector: 'app-root',
