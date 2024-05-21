@@ -1,0 +1,15 @@
+<h1>Informations</h1>
+<ul>
+  <li>Name : {{ developer.lastName }}</li>
+  <li>Firstname : {{ developer.firstName }}</li>
+  <li>Age : {{ developer.age }} ans</li>
+  <li>Sexe : {{ developer.gender }}</li>
+  <li>Biography : {{ developer.bio }}</li>
+</ul>
+
+<app-skill
+  *ngFor="let skill of developer.skills"
+  [name]="skill.name"
+  [logo]="skill.logo"
+  [site]="skill.site"
+></app-skill>
