@@ -14,15 +14,15 @@ import { SkillComponent } from "../skill/skill.component";
 export class DeveloperComponent {
 
   skill1: Skill = new Skill("PHP", '<i class="fa-brands fa-php"></i>', '<a href="https://www.php.net/")></a>');
-  skill2: Skill = new Skill("SQL", '<i class="fa-solid fa-database"></i>', '<a href="https://www.mysql.com/fr/"></a>');
-  skill3: Skill = new Skill("HTML", '<i class="fa-brands fa-html5"></i>', '<a href="https://www.html5pattern.com/"></a>');
+  skill2: Skill = new Skill("CSS", '<i class="fa-brands fa-css3-alt"></i>', '<a href="https://developer.mozilla.org/fr/docs/Web/CSS"></a>');
+  skill3: Skill = new Skill("Laravel", '<i class="fa-brands fa-laravel"></i>', '<a href="https://laravel.com/"></a>');
 
   developer: Developer = {
-    lastName: "Julie",
-    firstName: "Raymond",
-    age: 31,
-    gender: "Féminin",
-    bio: "Apprend Angular",
+    lastName: "Merhene",
+    firstName: "SI TAYEB",
+    age: 28,
+    gender: "Male",
+    bio: "c====3",
     skills: [this.skill1, this.skill2, this.skill3]
   }
 };
