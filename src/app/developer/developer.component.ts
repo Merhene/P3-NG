@@ -22,7 +22,7 @@ export class DeveloperComponent {
     firstName: "SI TAYEB",
     age: 28,
     gender: "Male",
-    bio: "c====3",
+    bio: "Nothing to say",
     skills: [this.skill1, this.skill2, this.skill3]
   }
 };
