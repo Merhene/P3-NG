@@ -1,0 +1,16 @@
+<h1>Informations globales du développeur</h1>
+
+<ul>
+  <li>Nom : {{ developer.lastName }}</li>
+  <li>Prénom : {{ developer.firstName }}</li>
+  <li>Age : {{ developer.age }} ans</li>
+  <li>Sexe : {{ developer.gender }}</li>
+  <li>Biographie : {{ developer.bio }}</li>
+</ul>
+
+<app-skill
+  *ngFor="let skill of developer.skills"
+  [name]="skill.name"
+  [logo]="skill.logo"
+  [site]="skill.site"
+></app-skill>
